@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>⚠️ Unsafe URL</title>
+  <style>
+    body { font-family: Arial; background: #f8d7da; color: #721c24; text-align: center; padding: 50px; }
+    h1 { color: #721c24; }
+    ul { text-align: left; display: inline-block; }
+    a { color: #721c24; }
+  </style>
+</head>
+<body>
+  <h1>⚠️ Warning: This URL May Be Unsafe</h1>
+  <p><strong>{{ url }}</strong> has been flagged by:</p>
+  <ul>
+    {% for r in reason %}
+      <li>{{ r }}</li>
+    {% endfor %}
+  </ul>
+  <p>We recommend you <a href="https://www.google.com">go back to Google</a>.</p>
+</body>
+</html>
