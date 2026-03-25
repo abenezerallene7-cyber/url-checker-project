@@ -8,8 +8,8 @@ from flask import Flask, render_template, request, redirect
 # --- Configuration ---
 # IMPORTANT: You MUST replace these with your own, new API keys.
 # The old keys are public and will not work.
-VT_KEY = "705e872dba01060e8ae902d251be08497059210bd3a747541195a3187232458b"
-GOOGLE_KEY = "AIzaSyBrTFohF3H_-I3PD0MaJW3eREjwp6q4oW4"
+VT_KEY = "insert your virustotal api key "
+GOOGLE_KEY = "Insert your google api key"
 
 app = Flask(__name__)
 
